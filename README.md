@@ -1,4 +1,7 @@
 # nixHaskellSetup
+
+All credit goes to: https://her.esy.fun/posts/0010-Haskell-Now/index.html
+
 Start a new project
 
 There are multiple starting options to create a new project. The most common one is certainly to use cabal-install. Another popular option is to use stack. stack adds a layer on top of cabal-install and uses fixed set of libraries known to compile together. Another method is to nix to handle the dependencies and use cabal-install for the rest. That final choice is often considered as the most complex and difficult for beginners. Still this is the one I find the most elegant. This is the method I will use in this article.
